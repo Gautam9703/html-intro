@@ -973,12 +973,87 @@ transition-example{
     border: 2px solid black;
     animation-duration: 0.25s;
     animation-name: colorAnimate;
-    animation-duration: 0s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
+    animation-duration: 0;
+    
 }
 @keyframes colorAnimate {
     0% {background-color: rgb(38, 193, 76); transform: translateX(0px);}
     50% {background-color: rgb(193, 38, 38); transform: translateX(200px);}
     100% {background-color: rgb(38, 193, 76); transform: translateX(0px);}
+}
+@keyframes example-animation {
+    0% {background-color: rgb(38, 193, 76); transform: rotate(0deg);}
+    50% {background-color: rgb(193, 38, 38); transform: rotate(180deg);}
+    100% {background-color: rgb(38, 193, 76); transform: rotate(360deg);}
+}
+.border-example {
+    height: 400px;
+    width: 500px;
+    background-color: rgb(238, 199, 182);
+    gap: 10px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+   
+}
+.border-example1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(38, 193, 76);
+    border-width: 5px  black;
+    border-left: 10px solid red;
+}
+.border-example2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(224, 93, 93);
+    border-right: 12px solid green;
+}
+.border-example3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(207, 157, 190);
+    border-bottom: 8px solid blue;
+}
+.border-rotate-example{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(238, 199, 182);
+    gap: 10px;
+    display: flex;
+   
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.border-rotate-box1{
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    border-radius: 50%;
+    border-right-color: yellow;
+    animation: soinAnimate 0.1s ease-in 0s infinite;
+
+}
+.border-rotate-box2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-top: 10px solid rgb(1, 1, 10);
+    border-left: 10px solid rgb(10, 1, 10);
+}
+.border-rotate-box3{
+    width: 150px;
+    height: 150px;
+     direction: bottom;
+    border-radius: 50%;
+    border-bottom: 10px solid green;
+}
+@keyframes soinAnimate{
+    from {transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
