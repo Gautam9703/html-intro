@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Go Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hero">
+  <nav class="navbar">
+    <div class="logo">Go<span>Library</span></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Facilities</a></li>
+      <li><a href="#">Membership</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <h1>Smart Study Space</h1>
+    <p>India’s Modern Reading & Learning Library</p>
+    <a href="#" class="btn">Join Now</a>
+  </div>
+
+  <div class="wave"></div>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="text">
+    <h2>About Go Library</h2>
+    <p>
+      Go Library ek premium study library hai jahan students ko
+      peaceful environment, discipline aur modern facilities milti hain.
+    </p>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <h2>Library Facilities</h2>
+  <div class="cards">
+    <div class="card">📚 Rich Book Collection</div>
+    <div class="card">🪑 Comfortable Seating</div>
+    <div class="card">📶 High Speed Wi-Fi</div>
+    <div class="card">🔌 Power Backup</div>
+  </div>
+</section>
+
+<!-- MEMBERSHIP -->
+<section class="membership">
+  <h2>Membership Plans</h2>
+  <div class="plans">
+    <div class="plan">
+      <h3>Monthly</h3>
+      <p>₹999 / Month</p>
+    </div>
+    <div class="plan popular">
+      <h3>Quarterly</h3>
+      <p>₹2499 / 3 Months</p>
+    </div>
+    <div class="plan">
+      <h3>Yearly</h3>
+      <p>₹8999 / Year</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Go Library | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

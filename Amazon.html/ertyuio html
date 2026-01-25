@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Go Spoken English</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hero">
+  <nav class="navbar">
+    <div class="logo">Go<span>Spoken</span></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Why Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <h1>Speak English With Confidence</h1>
+    <p>Spoken English | Personality | Interview Practice</p>
+    <a href="#" class="btn">Join Now</a>
+  </div>
+
+  <div class="wave"></div>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Our Spoken Class</h2>
+  <p>
+    Go Spoken English ek professional coaching hai jahan beginners
+    se advance level tak English bolna sikhaya jata hai.
+  </p>
+</section>
+
+<!-- COURSES -->
+<section class="courses">
+  <h2>Our Courses</h2>
+  <div class="course-box">
+    <div class="card">Basic Spoken English</div>
+    <div class="card">Advanced Grammar</div>
+    <div class="card">Interview Preparation</div>
+    <div class="card">Personality Development</div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why">
+  <h2>Why Choose Us</h2>
+  <ul>
+    <li>✔ Daily Speaking Practice</li>
+    <li>✔ Experienced Trainer</li>
+    <li>✔ Small Batches</li>
+    <li>✔ Affordable Fees</li>
+  </ul>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Address: Your Coaching Address</p>
+  <p>📞 Phone: 9XXXXXXXXX</p>
+  <p>📧 Email: gospoken@gmail.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Go Spoken English | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
